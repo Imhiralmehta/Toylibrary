@@ -1,0 +1,113 @@
+﻿body,html {overflow:scroll;}
+body
+{
+    top: 0%;
+    background: url(images/bg1.jpg);
+    background-size: 100%;
+    position: fixed;
+    z-index: -2;
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    
+}
+#mainhead
+{ 
+font-size:2.2em;
+color: crimson;
+text-align: center;
+text-decoration-style: wavy;
+font-family:Comic Sans MS;
+font-style: oblique;
+background-color: white;
+border: solid thick blue;
+box-shadow: -5px 2px 5px darkred;
+margin-top: 2px;
+margin-left: 35%;
+padding: 5px;
+width:30%;
+height: 10%;
+}
+#menu{
+    float:left;
+    width:14%;
+    height:auto;
+    padding: 2px 0 0 3px;    
+    background-color:white;
+    border-right: 2px solid darkred;
+    border-top: 5px solid darkred;
+    border-bottom: 5px solid darkred;
+    color:darkred;
+    line-height:30px;
+    position:absolute;
+    left:0; 
+    top: 106px;  
+}
+#general
+{
+font-family:Comic Sans MS;
+font-size:1.1em;
+padding:1%;
+color:darkblue;
+border: groove 3px darkred;
+box-shadow: -5px 2px 5px blue;
+width:70%;
+margin-left:15%;
+}
+#terms
+{
+border: dashed 2px blue;
+font-family:Calibri;
+font-size:0.9em;
+line-height:1.5em;
+width:50%;
+padding:2px;
+background-color: aliceblue;
+color:darkred;
+margin-left: 25%;
+}
+#available
+{
+    margin-left: 25%;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: cursive;
+    font-weight: bold;
+    color:darkred;
+    width:55%;
+}
+#wanted
+{
+    margin-left: 25%;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: cursive;
+    font-weight: bold;
+    color: darkred;
+    width:50%;
+    height: 383px;
+}
+.toy
+{
+box-shadow: -5px 2px 5px darkred;
+text-align:left;
+color: darkblue;
+font-family:cursive;
+font-weight: 100;
+line-height:20px;
+width:98%;
+}
+td
+{
+    border: solid thin black;
+}
+
+footer {
+    clear:left;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color:darkred;
+    color:white;
+}

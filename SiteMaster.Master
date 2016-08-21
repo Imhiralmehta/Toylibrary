@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="HiralMehta_Project.SiteMaster"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>A place to exchange toys in GTA</title>
+    <link href="myCSS.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">   
+                  
+            <h1 id='mainhead'>
+                <img src ='images/toys.jpg'/>toys R Ours
+                <img src ='images/toys.jpg'/> 
+            </h1>        
+        <aside id="menu"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Menu</strong><br />
+            <ul>
+                <li>
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Home.aspx">Want a toy?</asp:HyperLink></li>
+                <li>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Available.aspx">Advertise your toy</asp:HyperLink>
+            </li>
+                <li>
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Available.aspx#del">Delete your toy</asp:HyperLink>
+            </li>
+             <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="mailto:hiralmehta@mail.com">Contact website owner</asp:HyperLink></li>
+            </ul>
+            </aside>
+        <div id='general'>
+            <u><strong>This website is dedicated for toys or game exchange for parents in Greater Toronto Area.</strong></u><br />
+            Parents can either put their toys/games available for rent under Advertise toy section or can rent others' toys/
+            games by shortlisting their requirements under Wanted a toy? section.<br />
+            The purpose of this website is purely volunteer and no commercial
+            activities or gain is expected through this. It is only intended to
+            help parents and young kids to get variety of toys to play.
+            </div>
+        
+        <br />
+        <div id='terms'>
+            <strong>Terms and Conditions:</strong><br />
+            1)Any commercial activities are strictly prohibited, so anyone who 
+            seek rent in exchange of toys will be permanently banned.<br />
+            2) Toys/Games must be in good condition and no part should be missing.<br />
+            3) It is renter's responsibility to get and return toys/games.<br />
+            4) Please read guidelines here before using this website: <a href='http://healthycanadians.gc.ca/kids-enfants/toy-jouet/second_hand-usages-eng.php' target="_blank">
+                Second hand toys and kids safety</a>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+             </asp:ContentPlaceHolder>
+        <footer>© 2015 Hiral Mehta, Sheridan College, All rights reserved</footer>
+
+    </form>
+</body>
+</html>
